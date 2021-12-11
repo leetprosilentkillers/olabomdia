@@ -1,0 +1,184 @@
+﻿<vehicles>
+    <vehicle id="1" filename="data/vehicles/train/locomotive04/locomotive04.xml" isAbsolute="true" age="0.000000" price="164000.000000" farmId="0" propertyState="0" operatingTime="93.513626">
+        <component1 position="-83.5661 97.6231 526.3529" rotation="177.0000 64.9861 180.0000"/>
+        <configuration name="wheel" id="1"/>
+        <configuration name="motor" id="1"/>
+        <boughtConfiguration name="motor" id="1"/>
+        <boughtConfiguration name="wheel" id="1"/>
+        <drivable cruiseControl="80.000000"/>
+        <attacherJoints comboDirection="-1"/>
+    </vehicle>
+    <vehicle id="2" filename="data/vehicles/train/wagonGrain/wagonGrain.xml" isAbsolute="true" age="0.000000" price="1.000000" farmId="0" propertyState="0" operatingTime="93.680191">
+        <component1 position="-100.6523 96.6348 534.3344" rotation="177.0000 64.9000 -180.0000"/>
+        <configuration name="cover" id="1"/>
+        <configuration name="fillVolume" id="1"/>
+        <configuration name="wheel" id="1"/>
+        <configuration name="fillUnit" id="1"/>
+        <configuration name="trailer" id="1"/>
+        <boughtConfiguration name="cover" id="1"/>
+        <boughtConfiguration name="fillVolume" id="1"/>
+        <boughtConfiguration name="wheel" id="1"/>
+        <boughtConfiguration name="fillUnit" id="1"/>
+        <boughtConfiguration name="trailer" id="1"/>
+        <attacherJoints comboDirection="-1"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <cover state="0"/>
+    </vehicle>
+    <vehicle id="3" filename="data/vehicles/train/wagonWoodChips/wagonWoodChips.xml" isAbsolute="true" age="0.000000" price="1.000000" farmId="0" propertyState="0" operatingTime="93.680191">
+        <component1 position="-116.2585 95.7317 541.6448" rotation="177.0000 64.8998 -180.0000"/>
+        <configuration name="trailer" id="1"/>
+        <configuration name="wheel" id="1"/>
+        <configuration name="fillUnit" id="1"/>
+        <configuration name="fillVolume" id="1"/>
+        <boughtConfiguration name="trailer" id="1"/>
+        <boughtConfiguration name="wheel" id="1"/>
+        <boughtConfiguration name="fillUnit" id="1"/>
+        <boughtConfiguration name="fillVolume" id="1"/>
+        <attacherJoints comboDirection="-1"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+    </vehicle>
+    <vehicle id="4" filename="data/vehicles/train/wagonTimber/wagonTimber.xml" isAbsolute="true" age="0.000000" price="1.000000" farmId="0" propertyState="0" operatingTime="93.680191">
+        <component1 position="-132.3153 94.8024 549.1665" rotation="176.9999 64.9005 -180.0000"/>
+        <configuration name="wheel" id="1"/>
+        <configuration name="tensionBelts" id="1"/>
+        <boughtConfiguration name="tensionBelts" id="1"/>
+        <boughtConfiguration name="wheel" id="1"/>
+        <attacherJoints comboDirection="-1"/>
+        <tensionBelts>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+        </tensionBelts>
+    </vehicle>
+    <vehicle id="5" filename="data/vehicles/train/wagonSugarbeets/wagonSugarbeets.xml" isAbsolute="true" age="0.000000" price="1.000000" farmId="0" propertyState="0" operatingTime="93.680191">
+        <component1 position="-156.3783 93.4098 560.4382" rotation="177.0000 64.8998 -180.0000"/>
+        <configuration name="cover" id="1"/>
+        <configuration name="fillVolume" id="1"/>
+        <configuration name="wheel" id="1"/>
+        <configuration name="fillUnit" id="1"/>
+        <configuration name="trailer" id="1"/>
+        <boughtConfiguration name="cover" id="1"/>
+        <boughtConfiguration name="fillVolume" id="1"/>
+        <boughtConfiguration name="wheel" id="1"/>
+        <boughtConfiguration name="fillUnit" id="1"/>
+        <boughtConfiguration name="trailer" id="1"/>
+        <attacherJoints comboDirection="-1"/>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+        </fillUnit>
+        <cover state="0"/>
+    </vehicle>
+    <vehicle id="6" filename="data/vehicles/train/wagonVehicles/wagonVehicles.xml" isAbsolute="true" age="0.000000" price="1.000000" farmId="0" propertyState="0" operatingTime="93.680191">
+        <component1 position="-176.0585 92.2709 569.6572" rotation="177.0000 64.9000 180.0000"/>
+        <configuration name="wheel" id="1"/>
+        <configuration name="tensionBelts" id="1"/>
+        <boughtConfiguration name="tensionBelts" id="1"/>
+        <boughtConfiguration name="wheel" id="1"/>
+        <attacherJoints comboDirection="-1"/>
+        <tensionBelts>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+            <belt isActive="false"/>
+        </tensionBelts>
+    </vehicle>
+    <vehicle id="7" filename="data/vehicles/caseIH/moduleExpress635/moduleExpress635.xml" isAbsolute="true" age="0.000000" price="485000.000000" farmId="1" propertyState="1" operatingTime="0.000000">
+        <component1 position="-472.2003 84.0106 733.5019" rotation="113.7192 89.7113 113.8795"/>
+        <component2 position="-474.4183 84.6642 733.5094" rotation="102.2999 89.4550 102.4599"/>
+        <component3 position="-476.8354 86.4048 733.5223" rotation="113.7223 89.7113 113.8828"/>
+        <component4 position="-476.3592 87.3926 733.5259" rotation="113.7214 89.7106 113.8825"/>
+        <configuration name="wheel" id="1"/>
+        <configuration name="fillUnit" id="1"/>
+        <configuration name="motor" id="1"/>
+        <boughtConfiguration name="wheel" id="1"/>
+        <boughtConfiguration name="fillUnit" id="1"/>
+        <boughtConfiguration name="motor" id="1"/>
+        <washable>
+            <dirtNode amount="0.000071"/>
+            <dirtNode amount="0.000071"/>
+            <dirtNode amount="0.000071"/>
+            <dirtNode amount="0.000071"/>
+            <dirtNode amount="0.000071"/>
+        </washable>
+        <wearable>
+            <wearNode amount="0.000013"/>
+        </wearable>
+        <fillUnit>
+            <unit index="1" fillType="UNKNOWN" fillLevel="0.000000"/>
+            <unit index="2" fillType="DIESEL" fillLevel="757.000000"/>
+        </fillUnit>
+        <drivable cruiseControl="25.000000"/>
+        <attacherJoints comboDirection="-1"/>
+        <foldable foldAnimTime="1.000000"/>
+        <baler numBales="0"/>
+    </vehicle>
+    <vehicle id="8" filename="data/vehicles/lizard/truckM/truckM.xml" isAbsolute="true" age="0.000000" price="143000.000000" farmId="1" propertyState="1" operatingTime="0.000000">
+        <component1 position="-472.0007 83.9957 728.1500" rotation="0.0111 90.0000 0.0000"/>
+        <configuration name="attacherJoint" id="1"/>
+        <configuration name="baseMaterial" id="12"/>
+        <configuration name="motor" id="1"/>
+        <configuration name="fillUnit" id="1"/>
+        <configuration name="wheel" id="1"/>
+        <boughtConfiguration name="attacherJoint" id="1"/>
+        <boughtConfiguration name="baseMaterial" id="12"/>
+        <boughtConfiguration name="motor" id="1"/>
+        <boughtConfiguration name="fillUnit" id="1"/>
+        <boughtConfiguration name="wheel" id="1"/>
+        <washable>
+            <dirtNode amount="0.000049"/>
+            <dirtNode amount="0.000049"/>
+            <dirtNode amount="0.000049"/>
+            <dirtNode amount="0.000049"/>
+            <dirtNode amount="0.000049"/>
+            <dirtNode amount="0.000049"/>
+            <dirtNode amount="0.000049"/>
+            <dirtNode amount="0.000049"/>
+            <dirtNode amount="0.000049"/>
+        </washable>
+        <wearable>
+            <wearNode amount="0.000009"/>
+        </wearable>
+        <fillUnit>
+            <unit index="1" fillType="DIESEL" fillLevel="880.000000"/>
+            <unit index="2" fillType="AIR" fillLevel="4500.000000"/>
+        </fillUnit>
+        <drivable cruiseControl="83.000000"/>
+        <attacherJoints comboDirection="-1"/>
+    </vehicle>
+    <attachments rootVehicleId="1">
+        <attachment attachmentId="2" inputJointDescIndex="1" jointIndex="1" moveDown="false"/>
+    </attachments>
+    <attachments rootVehicleId="2">
+        <attachment attachmentId="3" inputJointDescIndex="1" jointIndex="1" moveDown="false"/>
+    </attachments>
+    <attachments rootVehicleId="3">
+        <attachment attachmentId="4" inputJointDescIndex="1" jointIndex="1" moveDown="false"/>
+    </attachments>
+    <attachments rootVehicleId="4">
+        <attachment attachmentId="5" inputJointDescIndex="1" jointIndex="1" moveDown="false"/>
+    </attachments>
+    <attachments rootVehicleId="5">
+        <attachment attachmentId="6" inputJointDescIndex="1" jointIndex="1" moveDown="false"/>
+    </attachments>
+</vehicles>

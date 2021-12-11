@@ -1,0 +1,27 @@
+﻿<missions>
+    <mission type="harvest" reward="535" status="0" success="false">
+        <field id="25" sprayFactor="0.500000" spraySet="false" plowFactor="1.000000" state="2" vehicleGroup="1" vehicleUseCost="84.318001" spawnedVehicles="false" growthState="7" limeFactor="1.000000" weedFactor="1.000000" fruitTypeName="CANOLA"/>
+        <harvest sellPoint="8" expectedLiters="3291.645020" depositedLiters="0.000000"/>
+    </mission>
+    <mission type="harvest" reward="15239" status="0" success="false">
+        <field id="11" sprayFactor="0.000000" spraySet="false" plowFactor="0.000000" state="2" vehicleGroup="3" vehicleUseCost="2401.431396" spawnedVehicles="false" growthState="7" limeFactor="1.000000" weedFactor="1.000000" fruitTypeName="WHEAT"/>
+        <harvest sellPoint="8" expectedLiters="110973.843750" depositedLiters="0.000000"/>
+    </mission>
+    <mission type="harvest" reward="15650" status="0" success="false">
+        <field id="10" sprayFactor="0.000000" spraySet="false" plowFactor="1.000000" state="2" vehicleGroup="5" vehicleUseCost="770.679016" spawnedVehicles="false" growthState="6" limeFactor="1.000000" weedFactor="1.000000" fruitTypeName="SUGARBEET"/>
+        <harvest sellPoint="8" expectedLiters="256991.796875" depositedLiters="0.000000"/>
+    </mission>
+    <mission type="transport" reward="2685" status="0" success="false" timeLeft="150229717" config="WHITE BOXES" pickupTrigger="TRANSPORT01" dropoffTrigger="TRANSPORT02" objectFilename="data/objects/pallets/missions/transportPalletWhiteBoxes.i3d" numObjects="6"/>
+    <mission type="fertilize" reward="13548" status="0" success="false">
+        <field id="7" sprayFactor="0.500000" spraySet="false" plowFactor="1.000000" state="2" vehicleGroup="1" vehicleUseCost="1935.569946" growthState="3" limeFactor="1.000000" weedFactor="1.000000" fruitTypeName="SOYBEAN"/>
+    </mission>
+    <mission type="mow_bale" reward="10149" status="0" success="false">
+        <field id="9" sprayFactor="0.000000" spraySet="false" plowFactor="1.000000" state="2" vehicleGroup="2" vehicleUseCost="799.636475" growthState="4" limeFactor="0.000000" weedFactor="1.000000" fruitTypeName="GRASS"/>
+        <bale sellPoint="9" fillTypeName="DRYGRASS_WINDROW" depositedLiters="0.000000"/>
+    </mission>
+    <mission type="harvest" reward="1343" status="0" success="false">
+        <field id="18" sprayFactor="1.000000" spraySet="false" plowFactor="0.000000" state="2" vehicleGroup="6" vehicleUseCost="211.731003" growthState="5" limeFactor="0.000000" weedFactor="1.000000" fruitTypeName="MAIZE"/>
+        <harvest sellPoint="10" expectedLiters="12736.434570" depositedLiters="0.000000"/>
+    </mission>
+    <mission type="transport" reward="1488" status="0" success="false" timeLeft="100168537" config="WATER" pickupTrigger="TRANSPORT04" dropoffTrigger="TRANSPORT10" objectFilename="data/objects/pallets/missions/transportPalletWater.i3d" numObjects="2"/>
+</missions>
